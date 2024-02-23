@@ -11,6 +11,14 @@
             primeNumber.Add(7);
 
             Console.WriteLine("no of elements:" + primeNumber.Count);
+             var cities = new List<string>();
+            cities.Add("Rome");
+            cities.Add("Moscow");
+            cities.Add("Paris");
+            cities.Add("Singapore");
+            cities.Add(null);
+
+            Console.WriteLine("No of elements: " + cities.Count);
         }
     }
 }
